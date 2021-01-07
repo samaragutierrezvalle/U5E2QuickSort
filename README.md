@@ -8,10 +8,12 @@ public class QUICKSORT{
 
     public static void main(String[] args) {
        List<Integer> lista = new ArrayList<Integer>();
-       lista.add(4);
+       lista.add(10);
        lista.add(3);
+       lista.add(7);
+       lista.add(9);
+       lista.add(8);
        lista.add(1);
-       lista.add(2);
       System.out.println("lista desordenada");
       for(int i=0;i<lista.size();i++){
           System.out.print(lista.get(i)+" ");
